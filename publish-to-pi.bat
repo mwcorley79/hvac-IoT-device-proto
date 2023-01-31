@@ -1,0 +1,1 @@
+dotnet publish  --sc -r linux-arm && scp .\bin\Debug\net7.0\linux-arm\publish\*  pi@192.168.224.198:~/projects/TestHarness/                      pi@rpi3b-1:~/dotnetProjects/TestHarness/
